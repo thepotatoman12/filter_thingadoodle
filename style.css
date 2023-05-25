@@ -1,0 +1,19 @@
+h3{
+    font-size: 26px;
+}
+.btn-primary:hover{
+       background-color: rgb(8, 55, 110);
+}
+.text-info{
+    font-size:100px
+}
+canvas{
+    margin-top: 100px;
+    animation-name: example ; 
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 38px limegreen;}
+    to{box-shadow:1px 1px 38px firebrick;}
+} 
